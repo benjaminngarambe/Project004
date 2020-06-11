@@ -1,9 +1,3 @@
-/*
- * My name is Abbas Ali Butt
- * My email address is smarty4u13@yahoo.com
- * Please send me feedback for this project i will feel glad
- * 
-*/
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,9 +11,6 @@ namespace Reverse_Polish_Notation
         {
             FileStream aFile = new FileStream("C:/Output.txt", FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(aFile);
-            sw.WriteLine("\t\tAllmighty increase my knowlege");
-            sw.WriteLine("\tSharing Knowledge is wisdom & hiding knowledge is curse\n");
-            sw.WriteLine("\t\tExpression:\t{0}", infix);
             byte[] chr = new byte[100];
             int i = 0, size = postexp.Length;
             intstack stk = new intstack(size);
@@ -78,7 +69,7 @@ namespace Reverse_Polish_Notation
             sw.WriteLine(" ");
             sw.WriteLine(" ");
             sw.WriteLine("\t\t\tMOV  Result:\t{0}", stk.pop());
-            sw.WriteLine("\n\n\t\tPrepeared By:\n\t\t\t\tABBAS ALI BUTT"); 
+            sw.WriteLine("\n\n\t\tPrepeared By:\n\t\t\t\tBenjamin Ngarambe"); 
             sw.Close();
         }
     }

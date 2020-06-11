@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Reverse Polish Notation"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\Reverse Polish Notation\\postfix.cs",
   "PreviewInSolutionExplorer": false
 }

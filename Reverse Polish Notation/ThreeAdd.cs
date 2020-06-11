@@ -12,9 +12,6 @@ namespace Reverse_Polish_Notation
         {
             FileStream aFile=new FileStream ("C:/Output.txt",FileMode.Create ,FileAccess.Write );
             StreamWriter sw = new StreamWriter(aFile);
-            sw.WriteLine("\t\tAllmighty increase my knowlege");
-            sw.WriteLine("\tSharing Knowledge is wisdom & hiding knowledge is curse\n");
-            sw.WriteLine("\t\tExpression:\t{0}", infix);
             byte[] chr = new byte[100];
             int i = 0, size = postexp.Length;
             intstack stk = new intstack(size);
@@ -65,7 +62,7 @@ namespace Reverse_Polish_Notation
             sw.WriteLine(" ");
             sw.WriteLine(" ");
             sw.WriteLine("\t\t\tResult:\t{0}", stk.pop ());
-            sw.WriteLine("\n\n\t\tPrepeared By:\n\t\t\t\tABBAS ALI BUTT"); 
+            sw.WriteLine("\n\n\t\tPrepeared By:\n\t\t\t\tBenjamin Ngarambe"); 
             sw.Close();
         }
     }

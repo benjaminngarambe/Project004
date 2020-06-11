@@ -12,9 +12,6 @@ namespace Reverse_Polish_Notation
         {
             FileStream aFile = new FileStream("C:/Output.txt", FileMode.Create, FileAccess.Write);//It is open in create mode because if there is any file by the name of output is already (in case of second expevaluation)remove that file first
             StreamWriter sw = new StreamWriter(aFile);
-            sw.WriteLine("\t\tAllmighty increase my knowlege");//just for pray
-            sw.WriteLine("\tSharing Knowledge is wisdom & hiding knowledge is curse\n");//for sperating the message in the world
-            sw.WriteLine("\t\tExpression:\t{0}", infix);
             byte[] chr = new byte[100];
             int i = 0, size = postexp.Length;
             intstack stk = new intstack(size);
