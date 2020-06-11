@@ -1,0 +1,10 @@
+obj\Release\Reverse Polish Notation.exe
+obj\Release\Reverse Polish Notation.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Release\ResolveAssemblyReference.cache
+bin\Release\Reverse Polish Notation.exe
+bin\Release\Reverse Polish Notation.pdb
+bin\Debug\Reverse Polish Notation.exe
+bin\Debug\Reverse Polish Notation.pdb
+obj\Debug\Reverse Polish Notation.exe
+obj\Debug\Reverse Polish Notation.pdb
